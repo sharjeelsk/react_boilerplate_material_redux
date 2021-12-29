@@ -1,1 +1,197 @@
 @import "../App.scss";
+
+.section1{
+    height: 100vh;
+    width:100vw;
+    background-image: url("../SiteAssets/2.\ MintSection/mintbackground.png");
+    background-size:cover;
+background-position: center center;
+background-attachment: fixed;
+.middiv{
+    text-align: center;
+    height: 100vh;
+    width: 28vw;
+    background-image: url("../SiteAssets/2.\ MintSection/centerscroll.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:8% 5%;
+    p{
+        color: white !important;
+        line-height: 2;
+    }
+    h1{
+        color:#EAC97E
+    }
+    .ethcont{
+    background-image: url("../SiteAssets/2.\ MintSection/reservebutton.png");
+    background-size:cover;
+    height: 12vh;
+    width: 18vw;
+    margin-top: 95%;
+    padding-top: 8%;
+    .spanlarge{
+
+        color:#EAC97E !important;
+    }
+    .spansmall{
+        color:#EAC97E !important;
+        font-size: 2em;
+        margin-bottom: 10%;
+    }
+
+    }
+
+}
+.roughborder{
+    height: 2vh;
+    width:100vw;
+    background-image: url("../SiteAssets/2.\ MintSection/roughborder.png");
+    background-size:cover;
+    position: absolute;
+    top: 5;
+}
+
+
+}
+.bottomsection1{
+    background-color: black !important;
+    text-align: center;
+    height: 20vh;
+    .subheading{
+        font-size: 1.6em;
+    }
+    .borderleft{
+        border-left: 1px solid rgb(36, 36, 36);
+    }
+    h2{
+
+    }
+}
+
+.classiconsquare{
+    background-image: url("../SiteAssets/2.\ MintSection/classiconsquare.png");
+    background-size:cover;
+    height: 16vh;
+    width: 8vw;
+    h3{
+        color:white;
+        padding-top: 78%;
+        text-align: center;
+        font-size:1em;
+    }
+}
+@media (max-width: 992px) {
+    .section1{
+        .middiv{
+            margin: 0 25%;
+            padding-top: 15%;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .section1{
+        .middiv{
+            margin: 0 25%;
+            padding-top: 15%;
+        }
+    }
+
+}
+@media (max-width: 576px) {
+ .section1{
+    .middiv{
+        margin: 0 25%;
+        padding-top: 33%;
+    }
+
+}
+}
+
+// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+//     /* insert styles here */
+// }
+ 
+// /* (320x480) Smartphone, Portrait */
+// @media only screen and (device-width: 320px) and (orientation: portrait) {
+//     /* insert styles here */
+// }
+ 
+// /* (320x480) Smartphone, Landscape */
+// @media only screen and (device-width: 480px) and (orientation: landscape) {
+//     /* insert styles here */
+// }
+ 
+// /* (480x800) Android */
+// @media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+//     /* insert styles here */
+// }
+ 
+// /* (640x960) iPhone 4 & 4S */
+// @media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+//     /* insert styles here */
+// }
+ 
+// /* (720x1280) Galaxy Nexus, WXGA */
+// @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+//     /* insert styles here */
+// }
+ 
+// /* (720x1280) Galaxy Nexus, Landscape */
+// @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+//     /* insert styles here */
+// }
+ 
+// /* (1024x768) iPad 1 & 2, XGA */
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+//     /* insert styles here */
+// }
+ 
+// /* (768x1024) iPad 1 & 2, Portrait */
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+//     /* insert styles here */
+// }
+ 
+// /* (1024x768) iPad 1 & 2, Landscape */
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+//     /* insert styles here */
+// }
+ 
+// /* (2048x1536) iPad 3 */
+// @media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1280x720) Galaxy Note 2, WXGA */
+// @media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1366x768) WXGA Display */
+// @media  screen and (max-width: 1366px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1280x1024) SXGA Display */
+// @media  screen and (max-width: 1280px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1440x900) WXGA+ Display */
+// @media  screen and (max-width: 1440px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1680x1050) WSXGA+ Display */
+// @media  screen and (max-width: 1680px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1920x1080) Full HD Display */
+// @media  screen and (max-width: 1920px) {
+//     /* insert styles here */
+// }
+ 
+// /* (1600x900) HD+ Display */
+// @media  screen and (max-width: 1600px) {
+//     /* insert styles here */
+// }

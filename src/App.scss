@@ -8,13 +8,18 @@ $green:#13a100;
 
 $primary-font:'Montserrat', sans-serif;
 $secondary-font:'Roboto', sans-serif;
-h1,h2,h3,h5{
-  font-family: 'Montserrat', sans-serif;
+
+h1,h2,h3,h5,.frizbold{
+  font-family: 'Friz Quadrata Std';
+}
+.lightgold{
+  color: #ac955f !important;
 
 }
-p{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+p,span,.frizregular{
+  font-family: 'Friz Quadrata Std Medium';
+  src: url("fonts/friz-quadrata-std-medium-5870338ec7ef8.otf");
+  color: white;
 }
 
 .submit{
