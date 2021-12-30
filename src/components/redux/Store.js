@@ -3,10 +3,7 @@ import logger from 'redux-logger'
 import RootReducer from './RootReducer'
 import thunk from 'redux-thunk'
 import { persistStore,persistReducer } from 'redux-persist'
-import storage from 'redux-persist/lib/storage'
 import storageSession from 'redux-persist/lib/storage/session'
-import { createTransform } from 'redux-persist';
-import JSOG from 'jsog'
 // export const JSOGTransform = createTransform(
 //     (inboundState, key) => JSOG.encode(inboundState),
 //     (outboundState, key) => JSOG.decode(outboundState),
