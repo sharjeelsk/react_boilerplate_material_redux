@@ -9,85 +9,14 @@ $green:#13a100;
 $primary-font:'Montserrat', sans-serif;
 $secondary-font:'Roboto', sans-serif;
 
-h1,h2,h3,h5,.frizbold{
+h1,h2,h3,h5{
   font-family: 'Friz Quadrata Std';
 }
 .lightgold{
   color: #ac955f !important;
 
 }
-p,span,.frizregular{
-  font-family: 'Friz Quadrata Std Medium';
-  src: url("fonts/Friz\ Quadrata\ Std\ Regular.otf");
-  color: white;
-  font-weight: 100;
-}
 
-.submit{
-  padding:1.8% 8%; 
-  border-radius: 50px;
-  outline: none;
-  background-color: #5a1e96;
-  border:none;
-  font-family: $primary-font;
-  color: white;
-  font-weight: 600;
-}
-.submit:hover{
-  cursor: pointer;
-}
-.red-status{
-  color: #ff8383;
-  font-weight: bolder;
-}
-.green-status{
-  color: #5fd46c;
-  font-weight: bolder;
-}
-
-.btn-purple{
-    background-color: $purple;
-    color:white;
-    border-radius: 30px;
-    border: none;
-    font-size: 1em;
-}
-.btn-purple:hover{
-    cursor: pointer;
-}
-
-.btn-purple-outline{
-    background-color: white;
-    color:$purple;
-    border: 1px solid $purple;
-    border-radius: 30px;
-    font-size: 1em;
-}
-.btn-purple-outline:hover{
-    cursor: pointer;
-}
-
-.padded-container{
-    padding: 0 7%;
-}
-.alignright{
-  text-align: right;
-}
-.error{
-  color: rgb(230, 0, 0);
-}
-.greycolor{
-  color:#a1a1a1;
-}
-
-
-
-.alert{
-  position: absolute;
-  bottom: 0;
-  z-index: 5;
-  left: 50%;
-}
 
 ::-webkit-scrollbar{
   width:5px !important;
