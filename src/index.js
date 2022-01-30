@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import {BrowserRouter} from 'react-router-dom'
-import {Provider} from 'react-redux'
-import {store,Persister} from './components/redux/Store'
 import { createTheme,ThemeProvider } from '@mui/material/styles';
-import { PersistGate } from 'redux-persist/integration/react'
+import {BrowserRouter} from 'react-router-dom'
 
 const theme = createTheme({
   palette: {
@@ -70,15 +67,11 @@ const theme = createTheme({
 
 
 ReactDOM.render(
-  <Provider store={store}>
-  <PersistGate loading={null} persistor={Persister}>
-    <BrowserRouter>
     <ThemeProvider theme={theme}>
+      <BrowserRouter>
     <App />
-    </ThemeProvider>
     </BrowserRouter>
-    </PersistGate>
-    </Provider>
+    </ThemeProvider>
 ,
   document.getElementById('root')
 );
