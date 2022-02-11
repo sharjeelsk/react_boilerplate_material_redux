@@ -1,15 +1,11 @@
-import './App.css';
+import './App.scss';
 import {Switch,Route}  from 'react-router-dom'
-import App2 from "./App2"
-import LogIn from './LogIn'
-import SignUp from './SignUp'
+import Home from "./components/Home"
 
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={SignUp} />
-      <Route path="/login" component={LogIn} />
-      <Route path="/landing" component={App2} />
+      <Route exact path="/" component={Home} />
     </Switch>
   );
 }
