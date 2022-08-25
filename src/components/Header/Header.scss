@@ -59,18 +59,18 @@ font-weight: 600;
  }
 
 .nav-link{
-    color:$grey !important;
+    color:#ccc !important;
     font-weight: 400;
     font-family: $secondary-font;
     font-size: 1.1em;
 
 }
 .nav-link:hover{
-    color:$purple !important;
+    color:purple !important;
     transition: .3s;
 }
 .active{
-color:$purple !important
+color:purple !important
 }
 
 li{

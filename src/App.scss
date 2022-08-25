@@ -5,7 +5,7 @@ $primary-font:'Montserrat', sans-serif;
 $secondary-font:'Roboto', sans-serif;
 
 h1,h2,h3,h5{
-  font-family: 'Friz Quadrata Std';
+  font-family: $primary-font;
 }
 
 
