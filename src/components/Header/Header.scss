@@ -66,15 +66,15 @@ font-weight: 600;
 
 }
 .nav-link:hover{
-    color:purple !important;
+    color:$primary !important;
     transition: .3s;
 }
 .active{
-color:purple !important
+color:$primary !important
 }
 
 li{
-    color:purple;
+    color:$primary;
 }
 .custombadge{
     position: absolute;
